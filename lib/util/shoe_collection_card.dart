@@ -30,6 +30,7 @@ class ShoeCollectionCard extends StatelessWidget {
                         imageSrc: imageSrc,
                         heroTag: heroTag,
                         shoeName: shoeName,
+                        price: price,
                       )));
         },
         child: Container(
