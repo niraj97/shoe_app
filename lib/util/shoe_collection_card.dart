@@ -50,27 +50,24 @@ class ShoeCollectionCard extends StatelessWidget {
               ),
               Align(
                 alignment: Alignment.bottomLeft,
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: <Widget>[
-                    Padding(
-                      padding: const EdgeInsets.only(left: 10.0),
-                      child: Text(
+                child: Padding(
+                  padding: const EdgeInsets.only(left: 10.0, bottom: 10.0),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                      Text(
                         shoeName,
                         style: TextStyle(fontSize: 14.0, color: Colors.white),
                       ),
-                    ),
-                    Padding(
-                      padding: const EdgeInsets.only(left: 10.0),
-                      child: Text(
+                      Text(
                         '\$ $price',
                         style: TextStyle(
                             fontSize: 16.0,
                             color: Colors.white,
                             fontWeight: FontWeight.bold),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ),
             ],
