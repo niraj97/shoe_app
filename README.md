@@ -1,8 +1,7 @@
 # Shoe App
 A new UI Challange on Flutter application.
 
-https://dribbble.com/parshant019
-Implementation of [Mianze Gregory](https://dribbble.com/parshant019)'s [design]https://dribbble.com/shots/11799151-Nike-App-UI-Design-Concept).
+Implementation of [Mianze Gregory](https://dribbble.com/parshant019)'s [design](https://dribbble.com/shots/11799151-Nike-App-UI-Design-Concept).
 
 ## Design(s):
 ![Design](https://cdn.dribbble.com/users/3161038/screenshots/11799151/media/2f49414fedf910916cfd7585dbeb7d60.png)
